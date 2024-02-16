@@ -112,17 +112,56 @@ hr{
 
 .i-15{
     width: 100vw;
-    height:100vh;
+    height:auto;
     background-color:rgb(255,255,255);
 }
 
 .video-15{
-    padding: 0 auto;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .i-15 h2,.i-15 p{
     text-align: center;
     padding:  0 0 0;
+}
+
+/* wacth started */
+
+.watch{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.watch-video{
+    width: 100%;
+    height: 100;
+    position: absolute;
+    object-fit: cover;
+}
+
+.watch .caption {
+    z-index: 1;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    color: rgb(255,255,255);
+    
+}
+
+.caption{
+    margin: 25% auto; 
+    overflow: hidden;
+}
+
+.caption h3{
+    font-weight: 90;
+    font-size: 25px;
+}
+
+.caption h4{
+    font-weight: 150;
+    font-size: 20px;
+    
 }
