@@ -170,27 +170,46 @@ hr{
     width: 100%;
     height: 150vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45% 45%;
     grid-gap: 10px;
-    
 }
 
 .red{
     align-content: center;
     text-align: center;
     background-color: rgb(250,250,250);
-    width: 100%;
+    width: 100vh;
     height: auto ;
+    overflow: hidden;
 }
 
+.mac-img {
+    display: block;
+    margin: 0 50px 0 0 ;  
+    max-width: auto; 
+    height: 100%; 
+    overflow: hidden; 
+    align-content: center;
+}
+
+
 .headline{
+    margin: 0px 0px 0px 0px;
     padding-top: 30px;
     font-size: 30px;
     color: rgb(29,29,31);
 }
 
 .sub-headline{
-    padding-top:-10px ;
+    font-size: 20px;
+}
+
+.block a{
+    text-decoration: none;
+    color: rgb(45,129,212);
+    padding: 20px;
+    font-size: 15px ;
+    font-weight: 500;
 }
 
 
@@ -201,3 +220,9 @@ hr{
     height: 100px;
 }
 
+.img-block{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+}
