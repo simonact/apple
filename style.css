@@ -166,7 +166,7 @@ hr{
     font-size: 20px;
 }
 
-.block{
+/* .block{
     width: 100%;
     height: 150vh;
     display: grid;
@@ -186,7 +186,7 @@ hr{
 .mac-img {
     display: block;
     margin: 0 50px 0 0 ;  
-    max-width: auto; 
+    max-width: (500px) ; 
     height: 100%; 
     overflow: hidden; 
     align-content: center;
@@ -225,4 +225,11 @@ hr{
     height: auto;
     text-align: center;
     align-content: center;
+} */
+
+
+.carousel-item{
+    width: 100vw;
+    height: 100vh;
+
 }
