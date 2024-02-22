@@ -139,6 +139,7 @@ hr{
     height: 100;
     position: absolute;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .watch .caption {
@@ -159,11 +160,13 @@ hr{
 .caption h3{
     font-weight: 90;
     font-size: 25px;
+    overflow: hidden;
 }
 
 .caption h4{
     font-weight: 150;
     font-size: 20px;
+    overflow: hidden;
 }
 
 /* .block{
@@ -229,7 +232,34 @@ hr{
 
 
 .carousel-item{
-    width: 100vw;
-    height: 100vh;
+    overflow: hidden;
+    
+}
 
+.footer{
+    background-color:#F5F5F7;
+    min-width: 80% 2em;
+    height:auto;
+    overflow: hidden;
+}
+
+.footer p{
+    font-size: 12px;
+    margin:  20px auto;
+    max-width: 80%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hr-footer{
+    border-bottom: solid black 2px;
+    width: 95%;
+    margin: 0 auto;
+    opacity: 25%;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: black;
 }
